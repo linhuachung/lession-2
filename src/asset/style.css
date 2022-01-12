@@ -1,0 +1,85 @@
+body {
+  font-size: 23px;
+}
+
+body svg {
+  margin: 0 5px;
+}
+
+nav {
+  margin: 5px 0;
+}
+
+nav .nav-top ul {
+  list-style-type: none;
+}
+
+nav .nav-top li {
+  padding: 0 10px;
+}
+
+nav .nav-top .nav-top-notification {
+  font-size: 15px;
+  background-color: #f27020;
+  margin: 0 8px;
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+
+nav .nav-bottom .nav-bottom-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-bottom .logo {
+  color: #f27020;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+nav .nav-bottom ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav .nav-bottom .active {
+  color: #f27020;
+  border-bottom: 2.5px solid #f27020;
+  font-weight: 500;
+}
+
+nav .nav-bottom .nav-bottom-search {
+  width: 50%;
+  position: relative;
+}
+
+nav .nav-bottom .nav-bottom-search .nav-bottom-search-input {
+  border: 2px solid #a1a1a1;
+  padding: 10px 40px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+nav .nav-bottom .nav-bottom-search .nav-bottom-btnSearch {
+  color: #f27020;
+  border: none;
+  position: absolute;
+  left: 91%;
+  top: 16%;
+  background: white;
+}
+
+nav .nav-bottom .nav-bottom-search .nav-bottom-btnSearch svg {
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-bottom .nav-bottom-button button {
+  background-color: #f27020;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
